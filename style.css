@@ -130,3 +130,55 @@ section {
     background: none;
 }
 
+/* ABOUT ME SECTION */
+.section-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 4rem;
+}
+.about-pic {
+    border-radius: 2rem;
+}
+
+/* PROJECTS SECTION */
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.experience-details-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    padding: 4rem;
+
+}
+
+.project-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: rgb(53, 53, 53) solid;
+    border-radius: 2rem;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.project-button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.project-img {
+    height: 90%;
+    width: 90%;
+    border-radius: 2rem;
+}
+
+
+
