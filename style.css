@@ -8,8 +8,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
 }
 
 html {
@@ -58,7 +58,6 @@ a:hover {
 
 section {
     padding-top: 4vh;
-    height: 96vh;
     min-height: fit-content;
 }
 .button-container {
@@ -143,18 +142,15 @@ section {
 
 /* PROJECTS SECTION */
 
-#projects {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
+
 
 .experience-details-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 2rem;
     padding: 4rem;
-
+    height: 100%;
+    
 }
 
 .project-details-container {
