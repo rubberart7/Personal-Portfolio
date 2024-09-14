@@ -173,8 +173,19 @@ section {
     height: 100%;
     object-fit: cover;
 }
+.skills-used {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills-used span {
+    padding: 10px;
+    border-right: 1px solid;
+}
 
-
+#last {
+    border-right: none;
+}
 
 .experience-details-container {
     display: grid;
