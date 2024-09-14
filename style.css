@@ -146,16 +146,16 @@ section {
 .about-top {
     display: flex;
     justify-content: left;
-    gap: 5rem;
+    gap: 1rem;
 }
 .details-container {
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 2rem;
 }
 
-.education-details, .relevant-coursework {
-    padding: 2.5rem;
+.education-details, .relevant-coursework, .skills-container {
+    padding: 3rem 2rem;
     flex: 1;
     border-radius: 2rem;
     border: rgb(163, 163, 163);
